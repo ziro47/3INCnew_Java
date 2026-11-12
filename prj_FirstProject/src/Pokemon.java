@@ -13,10 +13,10 @@ public class Pokemon {
 
     public String Display() {
         String d = "";
-        d += "nome: " + nome + " ";
-        d += "punti vita: " + puntiVita + " ";
-        d += "tipo: " + tipo + " ";
-        d += "mosse: " + mosse + " ";
+        d += "-Nome: " + nome + " ";
+        d += "-Punti vita: " + puntiVita + " ";
+        d += "-Tipo: " + tipo + " ";
+        d += "-Mosse: " + mosse + " ";
         return d;
     }
 }
